@@ -1,5 +1,7 @@
-say_hello:
-          @echo "Hello World"
-#test:
-    #python3 -m unittest test/test_main.py
-#python3 -m unittest test/test_main.py
+code:
+		echo "code execution"
+		python3 main.py
+
+tests:
+		echo "test execution"
+		python3 -m unittest test/test_main.py
