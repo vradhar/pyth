@@ -20,4 +20,6 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
       - name: Run tests with unittest
-        run: python3 -m unittest test/test_main.py
+        run: |
+          python3 -m unittest test/test_main.py
+          echo "test case executed successfully"
